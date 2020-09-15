@@ -1,0 +1,121 @@
+#home {
+  padding: 0;
+  height: 600px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  background-image: url(../img/fondo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerSlogan {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 10%;
+}
+
+.containerSlogan h1 {
+  font-size: 34px;
+  font-weight: bold;
+  line-height: 45px;
+}
+
+.containerButton {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContact {
+  background-color: #3399cc;
+  border-color: #ffffff;
+  border-style: none;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  border-bottom-width: 0px;
+  border-image-outset: 0px;
+  border-image-repeat: stretch;
+  border-image-slice: 100%;
+  border-image-source: none;
+  border-image-width: 1;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-top-width: 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  height: 56px;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration-color: #ffffff;
+  text-decoration-line: none;
+  text-decoration-style: solid;
+  text-align: center;
+  width: 200px;
+  -moz-text-decoration-color: #ffffff;
+}
+
+@media screen and (min-width:480px) {
+  .containerSlogan h1 {
+    width: 70%;
+    font-size: 40px;
+    line-height: 51px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #home {
+    justify-content: space-evenly;
+    height: 800px;
+  }
+
+  .containerSlogan h1 {
+    width: 50%;
+    font-size: 46px;
+    line-height: 57px;
+  }
+
+  .buttonContact {
+    width: 270px;
+    height: 68px;
+    font-size: 28px;
+  }
+
+  .buttonContact:hover {
+    color: #ffffff;
+    box-shadow: #3399cc6c 0px 20px 50px 0px;
+    transform: translateY(-2px);
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -ms-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
+    transition: 0.3s ease-in-out;
+    -webkit-transition: 0.3s ease-in-out;
+    -moz-transition: 0.3s ease-in-out;
+    -ms-transition: 0.3s ease-in-out;
+    -o-transition: 0.3s ease-in-out;
+}
+}
+
+@media screen and (min-width:980px) {
+  .containerSlogan h1 {
+    font-size: 60px;
+    line-height: 71px;
+  }
+}
