@@ -1,11 +1,11 @@
 #header {
+  background-color: #ffffffef;
   height: 80px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  background: transparent;
   z-index: 1;
   border-bottom: 4px solid #191919;
   padding: 20px 20px 0 20px;
@@ -49,7 +49,7 @@ ul {
   -ms-transform: translateX(30%);
   -o-transform: translateX(30%);
   z-index: 1;
-  box-shadow: #1919194d 0px 20px 50px 0px;
+  box-shadow: #1919194d 0px 20px 40px 0px;
 }
 
 .item {
