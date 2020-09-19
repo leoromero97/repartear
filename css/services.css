@@ -288,7 +288,7 @@
 
   .number {
     font-size: 22px;
-    padding: 4px 16px;
+    padding: 4px 14px;
   }
 
   .number:nth-child(1) {
@@ -311,6 +311,7 @@
 }
 
 @media screen and (min-width:768px) {
+
   #services,
   #services2,
   #services3 {
@@ -391,6 +392,7 @@
   #services2,
   #services3 {
     height: 900px;
+    justify-content: space-evenly;
   }
 
   .servicesText {
@@ -415,6 +417,6 @@
   }
 
   .promotionsCards {
-    width: 44%;
+    width: 40%;
   }
 }
