@@ -20,10 +20,10 @@ button,
 select,
 textarea {
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 25px;
   margin: 0;
-  color: #191919;
+  color: #191919ee;
 }
 
 h1:focus,

@@ -1,10 +1,10 @@
 #home {
   padding: 0;
-  height: 600px;
+  height: 720px;
   width: 100%;
   margin: auto;
   overflow: hidden;
-  background-image: url(../img/fondo.png);
+  background-image: url(../img/bghome.png);
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: center;
@@ -15,7 +15,7 @@
   justify-content: center;
 }
 
-.containerSlogan {
+.containerTitle {
   height: 50%;
   width: 100%;
   display: flex;
@@ -23,7 +23,7 @@
   padding: 10% 10% 0% 10%;
 }
 
-.containerSlogan h1 {
+.containerTitle h1 {
   font-size: 34px;
   font-weight: bold;
   line-height: 45px;
@@ -40,20 +40,15 @@
 
 .buttonContact {
   background-color: #3399cc;
-  border-color: #ffffff;
+  border-color: #f2f2fa;
   border-style: none;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
-  border-bottom-width: 0px;
-  border-image-outset: 0px;
-  border-image-repeat: stretch;
-  border-image-slice: 100%;
-  border-image-source: none;
-  border-image-width: 1;
-  border-left-width: 0px;
-  border-right-width: 0px;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  border-bottom-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
   border-top-width: 0px;
   cursor: pointer;
   height: 56px;
@@ -61,12 +56,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration-color: #ffffff;
+  text-decoration-color: #f2f2fa;
   text-decoration-line: none;
   text-decoration-style: solid;
   text-align: center;
   width: 180px;
-  -moz-text-decoration-color: #ffffff;
+  -moz-text-decoration-color: #f2f2fa;
   position: relative;
   overflow: hidden;
   -moz-text-decoration-line: none;
@@ -116,12 +111,12 @@
 
 @keyframes move {
   0% {
-    transform: translateX(-90%) rotateY(20deg) rotateX(5deg);
-    -webkit-transform: translateX(-90%) rotateY(20deg) rotateX(5deg);
-    -moz-transform: translateX(-90%) rotateY(20deg) rotateX(5deg);
-    -ms-transform: translateX(-90%) rotateY(20deg) rotateX(5deg);
-    -o-transform: translateX(-90%) rotateY(20deg) rotateX(5deg);
-  }
+    transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
+    -webkit-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
+    -moz-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
+    -ms-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
+    -o-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
+}
 
   20% {
     transform: translateX(50%) rotateY(50deg) rotateX(10deg);
@@ -156,12 +151,12 @@
   }
 
   100% {
-    transform: translateX(-90%) rotateY(20deg) rotateX(0deg);
-    -webkit-transform: translateX(-90%) rotateY(20deg) rotateX(0deg);
-    -moz-transform: translateX(-90%) rotateY(20deg) rotateX(0deg);
-    -ms-transform: translateX(-90%) rotateY(20deg) rotateX(0deg);
-    -o-transform: translateX(-90%) rotateY(20deg) rotateX(0deg);
-  }
+    transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
+    -webkit-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
+    -moz-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
+    -ms-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
+    -o-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
+}
 }
 
 .cara {
@@ -192,7 +187,7 @@
 
 #three {
   background-color: #744c1b;
-  box-shadow: -10px 0 20px black;
+  box-shadow: -10px 0 20px #191919ee;
   transform: translateY(30px) rotateX(90deg);
   -webkit-transform: translateY(30px) rotateX(90deg);
   -moz-transform: translateY(30px) rotateX(90deg);
@@ -201,8 +196,8 @@
 }
 
 @media screen and (min-width:480px) {
-  .containerSlogan h1 {
-    width: 70%;
+  .containerTitle h1 {
+    width: 72%;
     font-size: 38px;
     line-height: 49px;
   }
@@ -280,8 +275,8 @@
     height: 800px;
   }
 
-  .containerSlogan h1 {
-    width: 50%;
+  .containerTitle h1 {
+    width: 60%;
     font-size: 46px;
     line-height: 57px;
   }
@@ -289,6 +284,7 @@
   .buttonContact {
     width: 270px;
     height: 68px;
+    margin-top: 20px;
   }
 
   .buttonContact span {
@@ -297,7 +293,7 @@
 
   .buttonContact:hover {
     background-color: #308ebd;
-    box-shadow: #3399cc8c 0px 20px 50px 0px;
+    box-shadow: #3399cc8c 0px 10px 30px 0px;
     transform: translateY(-2px);
     -webkit-transform: translateY(-2px);
     -moz-transform: translateY(-2px);
@@ -311,7 +307,7 @@
   }
 
   .buttonContact:hover span {
-    color: #ffffff;
+    color: #f2f2fa;
   }
 
   .buttonContact:hover::before {
@@ -320,10 +316,16 @@
 }
 
 @media screen and (min-width:980px) {
-  .containerSlogan h1 {
+  #home {
+    height: 900px;
+    background-size: cover;
+  }
+
+  .containerTitle h1 {
     font-size: 60px;
-    line-height: 71px;
-    width: 48%;
+    line-height: 70px;
+    width: 50%;
+    margin-bottom: 40px;
   }
 
   @keyframes move {
