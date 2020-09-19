@@ -1,0 +1,87 @@
+#clients {
+  padding: 0;
+  height: 720px;
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerClients {
+  display: flex;
+  -ms-flex-negative: 0;
+  flex-shrink: 0;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-pack: center;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  width: 100%;
+  height: 50%;
+}
+
+.client {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  box-shadow: #191919ee 0px 0px 4px 0px;
+  border-radius: 50%;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 80px;
+  height: 80px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.iconClient {
+  height: 60%;
+  width: 60%;
+}
+
+@media screen and (min-width:480px) {
+  .client {
+    width: 100px;
+    height: 100px;
+  }
+
+  .containerClients {
+    width: 480px;
+  }
+}
+
+@media screen and (min-width:768px) {
+  #clients {
+    justify-content: space-evenly;
+    height: 800px;
+  }
+}
+
+@media screen and (min-width:980px) {
+  #clients {
+    height: 900px;
+    padding: 40px 0;
+  }
+
+  .containerClients {
+    width: 600px;
+  }
+
+  .client {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .client:hover {
+    box-shadow: #191919ee 0px 0px 4px 2px;
+  }
+}
