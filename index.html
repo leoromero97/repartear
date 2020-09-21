@@ -13,6 +13,7 @@
   <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
   <title>reparte AR</title>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
@@ -25,9 +26,9 @@
         <ul>
           <li class="item indicador" id=homeI> <a href="#home">INICIO</a> </li>
           <li class="item" id="aboutI"> <a href="#about">NOSOTROS</a> </li>
-          <li class="item" id="contactI"> <a href="#services">SERVICIOS</a> </li>
-          <li class="item" id="menuI"> <a href="#clients">CLIENTES</a> </li>
-          <li class="item" id="kitI"> <a href="#contact">CONTACTO</a> </li>
+          <li class="item" id="servicesI"> <a href="#services">SERVICIOS</a> </li>
+          <li class="item" id="clientsI"> <a href="#clients">CLIENTES</a> </li>
+          <li class="item" id="footerI"> <a href="#contact">CONTACTO</a> </li>
         </ul>
       </nav>
       <div class="containerBurger">
@@ -57,8 +58,8 @@
       </div>
     </section>
     <section id="about">
-      <div class="containerDescription">
-        <p> <span> Hola !</span> Somos reparte AR, somos una agencia que brinda servicios logísticos en moto y auto,
+      <div class="containerDescription" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <p> <span> Hola !</span> Somos reparte AR, una agencia que brinda servicios logísticos en moto y auto,
           haciendo foco en
           la <strong> confianza</strong>, la
           <strong>responsabilidad</strong>, el <strong>compromiso</strong> y la <strong>buena atención</strong> creando
@@ -70,7 +71,7 @@
       </div>
     </section>
     <section id="about2">
-      <div class="containerDescription">
+      <div class="containerDescription" data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <img src="./img/about1.png" alt="Hombre Preparando el envío" title="Preparando el envío">
         <p>Nos ajustamos a tus necesidades, lista de precios personalizada, si tenes una <strong>empresa</strong>, una
           <strong>PyME</strong>, un
@@ -88,20 +89,20 @@
       <div class="containerTitle">
         <h1>Conocé nuestros servicios</h1>
       </div>
-      <div class="servicesText">
+      <div class="servicesText" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <p> <span class="number">1</span>
           <span class="textSky">Nos contactás,</span> coordinamos lo que necesitás enviar, destino, horarios, nombre y
           teléfono de quién recibe para facilitar la entrega.
         </p>
       </div>
-      <div class="servicesText">
+      <div class="servicesText" data-aos="fade-up-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <p> <span class="number">2</span>
           <span class="textSky">Buscamos,</span> lo que tengas que enviar y recibimos todas tus indicaciones. A partir
           de ese momento, relajate.
           Nosotros nos encargamos de todo.
         </p>
       </div>
-      <div class="servicesText">
+      <div class="servicesText" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <p> <span class="number">3</span>
           <span class="textSky">Entregamos,</span> tu envio y te avisamos. Podes
           abonar en efectivo o de forma electronica, antes o después del servicio.
@@ -180,18 +181,18 @@
         <h1>Promociones especiales</h1>
       </div>
       <a href="https://api.whatsapp.com/send?phone=541164392829&text=Hola reparte AR !" target="blanck"
-        class="promotionsCards">
+        class="promotionsCards" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <span class="textSky">Retiros Premium</span>
         <p>¿Tenés que buscar algo y pagarlo? Nosotros ponemos por vos el monto y cuando te entregamos el
           envío abonas todo junto</p>
       </a>
       <a href="https://api.whatsapp.com/send?phone=541164392829&text=Hola reparte AR !" target="blanck"
-        class="promotionsCards">
+        class="promotionsCards" data-aos="fade-up-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <span class="textSky">Emprendimientos</span>
         <p> El envío dentro de CABA sale $250 en moto y $350 en auto solo para emprendedores</p>
       </a>
       <a href="https://api.whatsapp.com/send?phone=541164392829&text=Hola reparte AR !" target="blanck"
-        class="promotionsCards">
+        class="promotionsCards" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
         <span class="textSky">5 envíos</span>
         <p>Si tenés cinco o más envíos en un mismo día el valor de cada uno es de $250</p>
       </a>
@@ -201,16 +202,16 @@
         <h1>Trabajamos en conjunto, sumate</h1>
       </div>
       <div class="containerClients">
-        <div class="client">
-          <img src="./img/buy.svg" alt="" class="iconClient">
-        </div>
-        <div class="client">
-          <img src="./img/buy.svg" alt="" class="iconClient">
-        </div>
-        <div class="client">
-          <img src="./img/buy.svg" alt="" class="iconClient">
-        </div>
-        <div class="client">
+        <a href="https://vapemaster.net/" target="blanck" class="client">
+          <img src="./img/vapermaster.jpeg" alt="Logo Vaper Master" title="Vaper Master" class="iconClient">
+        </a>
+        <a href="https://www.instagram.com/las__hache/" target="blanck" class="client">
+          <img src="./img/lash.jpeg" alt="Logo Las H" title="Las H" class="iconClient">
+        </a>
+        <a href="https://sesytel.com.ar/" target="blanck" class="client">
+          <img src="./img/sesytel.png" alt="Logo Sesytel Solutions" title="Sesytel Solutions" class="iconClient">
+        </a>
+        <div  class="client">
           <img src="./img/buy.svg" alt="" class="iconClient">
         </div>
         <div class="client">
@@ -236,8 +237,8 @@
         <img src="./img/Logotipo.svg" alt="Logo Reparte AR" title="Logo Reparte AR" class="logo">
       </div>
       <div class="contenedorFooter">
-        <div class="contentenidoFooter">
-          <a href="https://www.instagram.com/reparte.ar/" class="external">
+        <div class="contentenidoFooter" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+          <a href="https://www.instagram.com/reparte.ar/" class="external" target="blanck">
             <img src="./img/instagram.svg" alt="Instagram" title="Instagram" class="instagram">
             <p>@reparte.ar</p>
           </a>
@@ -259,19 +260,17 @@
             <p> Villa Soldati - CABA </p>
           </a>
         </div>
-        <div class="contentenidoFooter">
+        <div class="contentenidoFooter" data-aos="fade-up-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
           <a href="https://api.whatsapp.com/send?phone=16474505190&text=I would like to make a reservation for "
             class="external" target="blanck">
             <img src="./img/clock.svg" alt="Horarios" title="Horario" class="hours">
             <p>Lun a vie 9 a 21 hs <br> Sáb y dom de 12 a 22 hs <br> Envios programados las 24 hs
             </p>
           </a>
-          <div class="containerButtonsAbout">
-            <a href="" class="external">
-              <img src="./img/pay.svg" alt="Diferentes Medios de Pagos" title="Medios de Pagos" class="pay">
-              <p>Efectivo, transferencia bancaria o Mercado Pago</p>
-            </a>
-          </div>
+          <a href="https://www.mercadopago.com.ar/account-fund/unique-code" class="external" target="blanck">
+            <img src="./img/pay.svg" alt="Diferentes Medios de Pagos" title="Medios de Pagos" class="pay">
+            <p>Efectivo, transferencia bancaria o Mercado Pago</p>
+          </a>
         </div>
       </div>
       <a href="http://gerbacio.ml/portfolioLeoromero/" class="firma">&COPY; 2020. Leonardo Gerbacio Romero</a>
@@ -280,5 +279,9 @@
 </body>
 
 <script src="./script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 
 </html>

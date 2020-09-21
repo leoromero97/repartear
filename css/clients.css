@@ -42,8 +42,13 @@
 }
 
 .iconClient {
-  height: 60%;
-  width: 60%;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
 
 @media screen and (min-width:480px) {
@@ -67,7 +72,7 @@
 @media screen and (min-width:980px) {
   #clients {
     height: 900px;
-    padding: 40px 0;
+    padding: 30px 0 50px 0;
   }
 
   .containerClients {

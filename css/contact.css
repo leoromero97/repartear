@@ -44,7 +44,7 @@
 }
 
 .external p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .firma {
@@ -52,7 +52,6 @@
   height: 10%;
   width: 100%;
   font-size: 14px;
-  color: black;
   padding-top: 20px;
   transform: translateY(40px);
   -webkit-transform: translateY(40px);
@@ -68,7 +67,7 @@
   }
 
   .external p {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
 
@@ -91,7 +90,7 @@
 
   .contentenidoFooter {
     height: 80%;
-    width: 36%;
+    width: 38%;
   }
 
   .external {
@@ -102,7 +101,7 @@
 
 
   .external p {
-    font-size: 15px;
+    font-size: 22px;
     display: flex;
     align-items: center;
     transform: translateX(12px);
@@ -136,7 +135,6 @@
   }
 
   .firma:hover {
-    font-size: 18px;
     font-weight: bolder;
   }
 }
@@ -147,7 +145,7 @@
   }
 
   .external p {
-    font-size: 20px;
+    font-size: 24px;
     line-height: 30px;
   }
 
@@ -205,6 +203,6 @@
   }
 
   .firma {
-    font-size: 18px;
+    font-size: 20px;
   }
 }
