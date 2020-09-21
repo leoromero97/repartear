@@ -12,27 +12,54 @@ burger.addEventListener("click", () => {
   burger.classList.toggle("toggle");
 });
 
-inicio.addEventListener("click", ()=>{
+inicio.addEventListener("click", () => {
   topbar.classList.toggle("sidebar");
   burger.classList.toggle("toggle");
 });
 
-about.addEventListener("click", ()=>{
+about.addEventListener("click", () => {
   topbar.classList.toggle("sidebar");
   burger.classList.toggle("toggle");
 });
 
-services.addEventListener("click", ()=>{
+services.addEventListener("click", () => {
   topbar.classList.toggle("sidebar");
   burger.classList.toggle("toggle");
 });
 
-clients.addEventListener("click", ()=>{
+clients.addEventListener("click", () => {
   topbar.classList.toggle("sidebar");
   burger.classList.toggle("toggle");
 });
 
-footer.addEventListener("click", ()=>{
+footer.addEventListener("click", () => {
   topbar.classList.toggle("sidebar");
   burger.classList.toggle("toggle");
+});
+
+//A Partir de esta linea se ejecuta el script para el boton que aparece para subir
+window.onscroll = function () {
+  if (document.documentElement.scrollTop > 400) {
+    document.querySelector(".containerGoTop").classList.add("showGoTop");
+    document.querySelector(".subir").classList.remove("ocultarContenido");
+    document.querySelector(".up").classList.remove("ocultarContenido");
+  } else {
+    document.querySelector(".containerGoTop").classList.remove("showGoTop");
+    document.querySelector(".subir").classList.add("ocultarContenido");
+    document.querySelector(".up").classList.add("ocultarContenido");
+  }
+}
+
+
+
+window.addEventListener("scroll", () => {
+  let currentHeight = window.scrollY; //parte superior de la pantalla
+  let homePositionY = home.scrollHeight = +500;
+  if (currentHeight >= homePositionY) {
+    document.querySelector(".containerbuttonWPP").classList.add("showButtonWPP");
+    document.querySelector(".up").classList.remove("ocultarContenido");
+  } else {
+    document.querySelector(".containerbuttonWPP").classList.remove("showButtonWPP");
+    document.querySelector(".up").classList.add("ocultarContenido");
+  }
 });
