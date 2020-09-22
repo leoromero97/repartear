@@ -175,11 +175,11 @@
   .external .instagram:hover {
     background: #12c2e9;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #E1306C, #833AB4, #3f729b);
+    background: -webkit-linear-gradient(to left, #FF7E45, #DC4376, #6A5AC1);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #E1306C, #833AB4, #3f729b);
+    background: linear-gradient(to left, #FF7E45, #DC4376, #6A5AC1);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    border-color: #E1306C;
+    border-color: #FF7E45;
   }
 
   .external .whatsapp:hover {
