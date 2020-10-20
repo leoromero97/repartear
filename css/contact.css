@@ -141,7 +141,7 @@
 
 @media screen and (min-width:1080px) {
   .external {
-    width: 300px;
+    width: 420px;
   }
 
   .external p {
@@ -182,9 +182,9 @@
     border-color: #FF7E45;
   }
 
-  .external .whatsapp:hover {
-    border-color: #00bb2d;
-    background-color: #00bb2d;
+  .external .linkedin:hover {
+    border-color: #0e76a8;
+    background-color: #0e76a8;
   }
 
   .external .hours:hover {

@@ -273,6 +273,7 @@
 @media screen and (min-width:480px) {
   .servicesText {
     width: 80%;
+    margin: 8px 0;
   }
 
   .servicesText p {
@@ -319,6 +320,10 @@
 
   .servicesText {
     width: 76%;
+  }
+
+  .servicesText p {
+    line-height: 38px;
   }
 
   .containerServices::-webkit-scrollbar-thumb {

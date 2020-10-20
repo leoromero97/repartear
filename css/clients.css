@@ -76,14 +76,15 @@
   }
 
   .containerClients {
-    width: 600px;
+    width: 650px;
+    margin-bottom: 40px;
   }
 
   .client {
     width: 120px;
     height: 120px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin-right: 24px;
+    margin-bottom: 24px;
   }
 
   .client:hover {

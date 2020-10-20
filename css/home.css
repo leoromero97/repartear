@@ -116,7 +116,7 @@
     -moz-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
     -ms-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
     -o-transform: translateX(-140%) rotateY(20deg) rotateX(5deg);
-}
+  }
 
   20% {
     transform: translateX(50%) rotateY(50deg) rotateX(10deg);
@@ -156,7 +156,7 @@
     -moz-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
     -ms-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
     -o-transform: translateX(-140%) rotateY(20deg) rotateX(0deg);
-}
+  }
 }
 
 .cara {
@@ -197,7 +197,7 @@
 
 @media screen and (min-width:480px) {
   .containerTitle h1 {
-    width: 72%;
+    width: 80%;
     font-size: 38px;
     line-height: 49px;
   }
@@ -316,6 +316,11 @@
 }
 
 @media screen and (min-width:980px) {
+  .containerTitle {
+    height: 40%;
+    padding: 8% 10% 0% 8%;
+  }
+
   #home {
     height: 900px;
     background-size: cover;
@@ -324,7 +329,7 @@
   .containerTitle h1 {
     font-size: 60px;
     line-height: 70px;
-    width: 50%;
+    width: 56%;
     margin-bottom: 40px;
   }
 
