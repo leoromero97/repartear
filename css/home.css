@@ -20,13 +20,13 @@
   width: 100%;
   display: flex;
   align-items: center;
-  padding: 12% 10% 0% 10%;
+  padding: 12% 4% 0% 4%;
 }
 
 .containerTitle h1 {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: bold;
-  line-height: 45px;
+  line-height: 41px;
 }
 
 .containerButton {
@@ -69,7 +69,7 @@
 }
 
 .buttonContact span {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
   position: relative;
   transition: color 0.25s cubic-bezier(.7, 0, .9, 1);
