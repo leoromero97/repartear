@@ -1,0 +1,112 @@
+#about,
+#about2 {
+  padding-top: 70px;
+  width: 100%;
+  margin-bottom: 40px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#about2 {
+  background-image: url(../img/fondoleft.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-x: center;
+  background-position-y: center;
+  padding-top: 0;
+}
+
+.containerDescription {
+  background-color: #f2f2fa;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 90%;
+  padding: 0 10%;
+}
+
+.containerDescription p span {
+  color: #3399cc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.textSky {
+  color: #3399cc;
+  font-weight: 600;
+}
+
+.description {
+  margin-bottom: 40px;
+}
+
+.containerDescription img {
+  height: 46%;
+  margin-bottom: 40px;
+  width: 100%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media screen and (min-width:480px) {
+  .containerDescription {
+    width: 80%;
+  }
+
+  .containerDescription p {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .containerDescription p span,
+  .textSky {
+    font-size: 22px;
+  }
+
+  .containerDescription img {
+    height: 50%;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .containerDescription {
+    width: 76%;
+  }
+}
+
+@media screen and (min-width:980px) {
+  #about,
+  #about2 {
+    background-size: cover;
+  }
+
+  .containerDescription {
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 0 4%;
+    width: 70%;
+  }
+
+  .containerDescription img {
+    width: 50%;
+    height: 60%;
+    margin-right: 20px;
+  }
+
+  .containerDescription p {
+    font-size: 26px;
+    line-height: 40px;
+    margin: 30px;
+  }
+
+  .containerDescription p span,
+  .textSky {
+    font-size: 28px;
+  }
+}

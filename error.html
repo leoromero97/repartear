@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Servicios de envíos y traslados">
+  <meta name="keywords" content="Logística | Envios | Traslados | Delivery">
+  <meta name="author" content="Leonardo E. Gerbacio Romero">
+  <meta property="og:type" content="Website">
+  <meta content="https://www.repartear.com/" property="og:url">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="shortcut icon" href="./img/icono.png" type="image/x-icon">
+  <title>reparteAR</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    .containerError {
+      display: flex;
+      flex-direction: column;
+    }
+    .containerError h1 {
+      font-size: 50px; 
+      line-height: 62px;
+      font-weight: bold;
+      margin: 40px 0;
+    }
+
+    .containerError h1:nth-child(2) {
+      color: #308ebd;
+      font-size: 140px;
+    }
+
+    .containerError img {
+      height: 260px; 
+      width: 260px;
+    }
+
+    .containerErrorText {
+      display: flex; flex-direction: column; align-items: flex-start; justify-content: space-around; width: 90%; height: 300px;
+    }
+
+    .containerErrorText h3 {font-weight: bold;  font-size: 20px;}
+
+    .containerErrorText a {
+      color: #308ebd; font-weight: bolder; text-decoration: underline;
+    }
+
+
+@media screen and (min-width:768px) {
+    .containerError h1 {
+      font-size: 120px; 
+      line-height: 122px;
+    }
+
+    .containerError h1:nth-child(2) {
+      font-size: 260px; 
+      line-height: 202px;
+    }
+
+    .containerError img {
+      height: 400px; 
+      width: 400px;
+    }
+
+    .containerErrorText {
+     width: 70%;
+     font-size: 22px;
+    }
+
+    .containerErrorText p {font-size: 18px;}
+
+    .containerErrorText a {
+      font-size: 22px;
+    }
+  }
+  </style>
+</head>
+<body>
+  <section id="about">
+    <div class="containerError">
+      <h1>Ups !</h1>
+      <h1>404</h1>
+    </div>
+    <div class="containerErrorText">
+      <h3>No fue posible encontrar la página que estás buscando.</h3>
+      <p>Error de código: 404</p>
+      <p>Volvé a intentar en este link:</p>
+      <a href="https://repartear.com/"> repartear.com</a>
+      <p>Que tengas un lindo día :)</p>
+  </div>
+  </section>
+  <footer id="contact">
+    <div class="containerTitle">
+      <img src="./img/Logotipo.svg" alt="Logo Reparte AR" title="Logo Reparte AR" class="logo">
+    </div>
+    <div class="contenedorFooter">
+      <div class="contentenidoFooter" data-aos="fade-up-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <a href="https://www.instagram.com/reparte.ar/" class="external" target="blanck">
+          <img src="./img/instagram.svg" alt="Instagram" title="Instagram" class="instagram">
+          <p>@reparte.ar</p>
+        </a>
+        <a href="https://www.linkedin.com/company/reparte-ar/" target="blanck" class="external">
+          <img src="./img/linkedin.svg" alt="LinkedIn" title="LinkedIn" class="linkedin">
+          <p>reparteAR</p>
+        </a>
+      </div>
+
+      <div class="contentenidoFooter">
+        <a href="mailto:repartear@gmail.com" class="external">
+          <img src="./img/email.svg" alt="Email" title="Enviar Email">
+          <p>repartear@gmail.com</p>
+        </a>
+        <a href="https://www.google.com.ar/maps/place/Casta%C3%B1on+3294,+C1437+CABA/@-34.661468,-58.4380014,17z/data=!3m1!4b1!4m5!3m4!1s0x95bccb923f75a1a5:0xa635057d002eb5bf!8m2!3d-34.6614724!4d-58.4358074"
+          target="blanck" class="external">
+          <img src="./img/location.svg" alt="Ubicación" class="ubication">
+          <p> Villa Soldati - CABA </p>
+        </a>
+      </div>
+      <div class="contentenidoFooter" data-aos="fade-up-left" data-aos-offset="300" data-aos-easing="ease-in-sine">
+        <a href="https://api.whatsapp.com/send?phone=541164392829&text=Hola reparte AR !" target="blanck"
+          class="external">
+          <img src="./img/clock.svg" alt="Horarios" title="Horario" class="hours">
+          <p>Lun a vie - 9 a 18 h <br> Sáb y dom - 10 a 22 h <br> Envios programados las 24 h
+          </p>
+        </a>
+        <a class="external openModal">
+          <img src="./img/pay.svg" alt="Diferentes Medios de Pagos" title="Medios de Pagos" class="pay">
+          <p>Efectivo, transferencia bancaria o Mercado Pago</p>
+        </a>
+      </div>
+    </div>
+    <a href="https://www.linkedin.com/in/leonardo-gerbacio-romero/" class="firma">&COPY; 2020. Leonardo Gerbacio Romero</a>
+  </footer>
+  <!--MODAL-->
+  <div class="modalContainer">
+    <div class="modal modalClose">
+      <p class="close">X</p>
+      <div class="contentModal">
+        <h3 class="titleModal">Podés depositar en nuestro número de cuenta de Mercado Pago
+        </h3>
+        <img src="./img/mercadopago.png" alt="Número de cuenta de Mercado Pago"
+          title="Número de cuenta de Mercado Pago">
+      </div>
+    </div>
+  </div>
+</body>
+<script src="./script.js"></script>
+</html>

@@ -1,0 +1,147 @@
+.modalContainer {
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  z-index: 1000;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal {
+  background: #f2f2fa;
+  border-radius: 10px;
+  width: 90%;
+  color: #0A1F29;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+  -webkit-transition: -webkit-transform 0.8s;
+  transition: -webkit-transform 0.8s;
+  -o-transition: transform 0.8s;
+  transition: transform 0.8s;
+  transition: transform 0.8s, -webkit-transform 0.8s;
+  -webkit-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  padding: 40px 0;
+  position: relative;
+  transform: translateY(0%);
+}
+
+.modalClose {
+  -webkit-transform: translateY(200%);
+  -ms-transform: translateY(200%);
+  transform: translateY(200%);
+}
+
+.close {
+  background: #f93045;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: bold;
+  position: absolute;
+  top: 2%;
+  right: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  color: #f2f2fa;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contentModal {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 14px 20px 0;
+}
+
+.titleModal {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.containerList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.titlePayment {
+  color: #3399CC;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.descriptionPayment {
+  font-size: 13px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.descriptionPayment span {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@media screen and (min-width:400px) {
+  .modal {
+    max-width: 330px;
+  }
+}
+
+@media screen and (min-width:980px) {
+  .modal {
+    max-width: 360px;
+      padding: 60px 20px 40px;
+  }
+
+  .titleModal {
+    font-size: 20px;
+  }
+
+  .descriptionPayment {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+  }
+  
+  .descriptionPayment span {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .close {
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+  }
+}
